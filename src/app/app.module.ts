@@ -16,6 +16,7 @@ import { AuthService } from 'src/services/auth.service';
 import { AuthGuardGuard } from './guard/auth-guard.guard';
 import * as firebase from 'firebase';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './footer/footer.component';
 
 
 firebase.initializeApp(environment.firebaseConfig);
@@ -24,7 +25,8 @@ firebase.initializeApp(environment.firebaseConfig);
   declarations: [
     AppComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
