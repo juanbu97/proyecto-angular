@@ -32,7 +32,7 @@
   margin: 0.2em;
 }
 
-.sidenav {
+.side-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -46,11 +46,11 @@
 
 
 
-.sidenav a:hover {
+.side-nav a:hover {
   color: #f1f1f1;
 }
 
-.sidenav .closebtn {
+.side-nav .closebtn {
   font-size: 36px;
   display: block
 }
@@ -63,4 +63,24 @@
 
 #contendor1{
   display: block;
+}
+
+.nombreAlumno{
+  color: #1565C0;
+  text-shadow: 1px 1px 1px gray;
+  text-align: center;
+}
+
+.puntos{
+  text-align: center;
+}
+
+.pulse {
+  display: inline;
+  border-radius: 50%;
+  background: #dc3545;
+  z-index: -1;
+  padding: 0px 10px 0px 9px;
+  box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+  animation: pulse 2s infinite;
 }
