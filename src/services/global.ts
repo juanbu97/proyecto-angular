@@ -1,4 +1,4 @@
 export var GLOBAL = {
-  url: 'http://apiproyecto',
-  header_color: 'black'
+  url1: 'http://apiproyecto',
+  url2: 'http://localhost/prueba-angular'
 }

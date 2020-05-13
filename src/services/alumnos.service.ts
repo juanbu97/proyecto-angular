@@ -16,7 +16,7 @@ export class AlumnosService {
     private _http:HttpClient,
     public authService:AuthService,
   ) {
-    this.url = GLOBAL.url;
+    this.url = GLOBAL.url1;
   }
 
   getAlumno(){
