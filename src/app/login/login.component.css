@@ -8,7 +8,7 @@
 
 .fondo{
   display: flex;
-  min-height: 93vh;
+  min-height: 95vh;
   flex-direction: column;
 }
 
@@ -18,20 +18,16 @@
 }
 
 .btn-google{
-    background: #1565C0;
     color:#fff;
 }
 
 .btn-google img{
+  width: 32px;
   display: inline-block;
 }
 
 .btn-google div{
   display: inline-block;
-}
-
-.btn-google img{
-  width: 40px;
 }
 
 .logo-img{
