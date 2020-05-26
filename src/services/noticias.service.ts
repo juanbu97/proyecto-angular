@@ -20,7 +20,7 @@ export class NoticiasService {
   }
 
   getNoticia(){
-    return this._http.get(this.url+"/noticias/'"+this.authService.getUser()+"'")
+    return this._http.get(this.url+"/noticias")
     .pipe(map(res => res));
   }
 }

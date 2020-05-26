@@ -58,7 +58,7 @@ export class AuthService {
     if (firebase.auth().currentUser)
       return firebase.auth().currentUser.email;
     else
-      return "hola que ase"; //cambiar esto
+      return "";
   }
 
   isAuthenticated() {
@@ -69,10 +69,4 @@ export class AuthService {
       return false;
     }
   }
-
-
-
-
-
-
 }

@@ -5,7 +5,8 @@ export class Alumno{
     public apellido1:string,
     public apellido2:string,
     public email:string,
-    public puntos:number
+    public puntos:number,
+    public idCurso:number,
   ){
 
   }

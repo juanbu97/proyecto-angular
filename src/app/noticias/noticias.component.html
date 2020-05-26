@@ -11,11 +11,12 @@
     </div>
   </div>
 </div>
+
 <div *ngIf="noticias">
 
     <ul>
       <li *ngFor="let noticia of noticias">
-        <div [innerHtml]="noticia.noticia_texto"></div>
+        <div [innerHtml]="noticia.consulta_sql[0].noticia_html"></div>
       </li>
     </ul>
 

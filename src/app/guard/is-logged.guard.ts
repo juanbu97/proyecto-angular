@@ -9,16 +9,16 @@ import { map } from 'rxjs/operators';
 })
 export class IsLoggedGuard implements CanActivate {
 
+
   constructor(
     public authService: AuthService,
     public router: Router,
   ) {
-
   }
 
   canActivate(): Observable<boolean> {
     return this.authService.isLogged().pipe(map(user => {
-      if (user)
+      if (user )
         this.router.navigate(['/home']);
       else
         return true;
